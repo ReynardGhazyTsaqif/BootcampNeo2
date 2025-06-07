@@ -1,0 +1,39 @@
+.navbar {
+  background: rgb(0, 0, 0, 0.3);
+  backdrop-filter: blur(10px);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+
+.nama {
+  color: #000080;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 700;
+  transition: 0.3s ease;
+  text-shadow: 0 0 25px;
+}
+.nama:hover {
+  transform: scale(1.1);
+  color: #000080;
+}
+
+.nama span {
+  color: white;
+}
+
+.navbar .nav-link {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  border-bottom: 3px solid transparent;
+  font-weight: 500;
+}
+
+.navbar ul li .nav-link:hover,
+.navbar ul li .nav-link:active,
+.navbar ul li .nav-link:focus {
+  color: #000080;
+  border-bottom: 3px solid #000080;
+}
